@@ -5,6 +5,6 @@ applications:
   host: genericbankuiToolchainDemo
   name: GenericBankUI
   path: genericBankUIApp.war
-  domain: mybluemix.net
+  domain: webStarterApp.war
   instances: 1
   memory: 512M
