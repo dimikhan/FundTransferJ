@@ -12,6 +12,7 @@ import com.ibm.bluemix.DBConnection;
 public class BankDao {
 
 
+//Sample Comment
 public boolean chkLogin(String userName, String passWord) {
 	boolean bool=false;
 	PreparedStatement pst=null;
