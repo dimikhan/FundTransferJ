@@ -14,7 +14,7 @@ public class BankDao {
 
 
 //Sample Comment
-//Some changes by Dimitry
+//Some more changes by Dimitry
 public boolean chkLogin(String userName, String passWord) {
 	boolean bool=false;
 	PreparedStatement pst=null;
