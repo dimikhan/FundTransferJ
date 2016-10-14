@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project basedir="." default="build" name="GenericBankUIApp">
+<project basedir="." default="build" name="FundTransferJ">
     <property environment="env"/>
     <property name="src.Dir" value="src"/>
     <property name="debuglevel" value="source,lines,vars"/>
@@ -11,7 +11,7 @@
     <condition property="ARCHIVE_DIR" value="${env.ARCHIVE_DIR}" else=".">
         <isset property="env.ARCHIVE_DIR" />
     </condition>
-	<property name="warname" value= "genericBankUIApp.war"/>
+	<property name="warname" value= "fundTransferJ.war"/>
     <path id="classpathDir">
         <pathelement location="bin"/>
          <fileset dir="WebContent/WEB-INF/lib"> 
